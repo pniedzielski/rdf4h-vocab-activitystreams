@@ -17,5 +17,5 @@ generated automatically from the OWL ontology published by the W3C.
 
 [rdf4h]: https://hackage.haskell.org/package/rdf4h
 [as2-vocab]: https://www.w3.org/TR/activitystreams-vocabulary/
-[as2-vocab]: https://www.w3.org/TR/activitystreams-core/
+[as2-core]: https://www.w3.org/TR/activitystreams-core/
 [ap]: https://www.w3.org/TR/activitypub/
