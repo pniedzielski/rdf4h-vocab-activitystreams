@@ -21,3 +21,10 @@ cabal.project.local
 cabal.project.local~
 .HTF/
 .ghc.environment.*
+
+# Cabal file is automatically generated from HPack, so do not include
+# it.
+rdf4h-vocab-activitystreams.cabal
+
+# We are a library, so we don't want to commit a lock file.
+stack.yaml.lock

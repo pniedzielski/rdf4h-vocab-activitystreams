@@ -1,0 +1,46 @@
+spec-version:        0.36.0
+name:                rdf4h-vocab-activitystreams
+version:             0.1.0
+github:              pniedzielski/rdf4h-vocab-activitystreams
+license:             BSD-3-Clause
+license-file:        [ LICENSE.md ]
+author:              Patrick M. Niedzielski
+maintainer:          Patrick M. Niedzielski <patrick@pniedzielski.net>
+copyright:           Copyright © 2024, Patrick M. Niedzielski.
+synopsis:            The ActivityStreams 2 RDF vocabulary for rdf4h.
+stability:           stable
+category:            RDF
+description:         >-
+  ActivityStreams 2.0 is a vocabulary for decentralized social media
+  activities standardized by the W3C.  This package imports that
+  vocabulary into a format useable with the rdf4h package.
+
+  See the README for more information:
+  <https://github.com/pniedzielski/rdf4h-vocab-activitystreams#readme>.
+
+extra-source-files:
+  - README.md
+  - CHANGELOG.md
+  - LICENSE.md
+  - package.yaml
+  - resources/*
+
+ghc-options:
+  - -Wall
+  - -Wcompat
+  - -Widentities
+  - -Wincomplete-record-updates
+  - -Wincomplete-uni-patterns
+  - -Wmissing-export-lists
+  - -Wmissing-home-modules
+  - -Wpartial-fields
+  - -Wredundant-constraints
+  - -Wprepositive-qualified-module
+language: GHC2021
+
+library:
+  source-dirs: src
+  dependencies:
+    - base
+    - rdf4h >= 5.1
+    - text
