@@ -35,7 +35,9 @@ ghc-options:
   - -Wpartial-fields
   - -Wredundant-constraints
   - -Wprepositive-qualified-module
-language: GHC2021
+language: GHC2010
+default-extensions:
+  - ImportQualifiedPost
 
 library:
   source-dirs: src
