@@ -18,11 +18,12 @@ description:         >-
   <https://github.com/pniedzielski/rdf4h-vocab-activitystreams#readme>.
 
 extra-source-files:
+  - resources/*
+
+extra-doc-files:
   - README.md
   - CHANGELOG.md
   - LICENSE.md
-  - package.yaml
-  - resources/*
 
 ghc-options:
   - -Wall
@@ -35,13 +36,13 @@ ghc-options:
   - -Wpartial-fields
   - -Wredundant-constraints
   - -Wprepositive-qualified-module
-language: GHC2010
+language: Haskell2010
 default-extensions:
   - ImportQualifiedPost
 
 library:
   source-dirs: src
   dependencies:
-    - base
-    - rdf4h >= 5.1
-    - text
+    - base >= 4.18 && < 5
+    - rdf4h >= 5.1 && < 6
+    - text >= 2 && < 3
