@@ -1,5 +1,5 @@
 name:                rdf4h-vocab-activitystreams
-version:             0.1.0
+version:             1.0.0
 github:              pniedzielski/rdf4h-vocab-activitystreams
 license:             BSD-3-Clause
 license-file:        [ LICENSE.md ]
